@@ -35,16 +35,28 @@ builds:
     scopes:
     - read
     version: 0.0.1
-latest_build:
-  build_id: 5db08555-4800-4998-bb99-88d65bef67ff
+- build_id: c5142733-68bb-4e7d-ae26-bb6f495f38b9
   builder: port
   manifest:
     author: root
-    command: conda run arkitekt port
+    command: conda run arkitekt run port
     entrypoint: app
     identifier: dekon
     requirements:
     - gpu
     scopes:
     - read
-    version: 0.0.1
+    version: 0.0.2
+latest_build:
+  build_id: c5142733-68bb-4e7d-ae26-bb6f495f38b9
+  builder: port
+  manifest:
+    author: root
+    command: conda run arkitekt run port
+    entrypoint: app
+    identifier: dekon
+    requirements:
+    - gpu
+    scopes:
+    - read
+    version: 0.0.2
