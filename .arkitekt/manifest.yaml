@@ -1,0 +1,9 @@
+author: root
+command: conda run arkitekt port
+entrypoint: app
+identifier: dekon
+requirements:
+- gpu
+scopes:
+- read
+version: 0.0.1

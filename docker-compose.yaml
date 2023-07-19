@@ -1,0 +1,14 @@
+version: "3.4"
+
+services:
+  segmentor:
+    runtime: nvidia
+    
+    build: .
+    
+
+
+networks:
+  default:
+    external:
+      name: dev
